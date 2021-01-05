@@ -12,30 +12,36 @@
    <div class="container">
     <nav class="navbar navbar-expand-lg navbar-light bg-white">
       <div class="container">
-        <a class="navbar-brand fw-bold" href="#">HotCoffee</a>
-        <div class="d-flex justify-content-center py-2 ms-5">
-          <i class="fas fa-search mt-2 py-1"></i>
-          <input class="form-control border-0" type="search" placeholder="Search..." aria-label="Search">
+        <a class="navbar-brand fw-bold" href="index.html">HotCoffee</a>
+        <div class="d-flex justify-content-end py-2 ms-5">
+          <i class="fas fa-search offset-5  mt-2 py-1"></i>
+          <input class="form-control border-0 " type="search" placeholder="Search..." aria-label="Search">
         </div>
-        <ul class="navbar-nav fs-5">
-          <li class="nav-item">
-            <a class="nav-link text-dark d-sm-none d-md-block d-md-none d-lg-block " href="#">Home</a>
-          </li>
-          <li class="nav-item">
-            <a class="nav-link text-dark d-sm-none d-md-block d-md-none d-lg-block " href="blog.html">Articles</a>
-          </li>
-          <li class="nav-item">
-            <a class="nav-link text-dark d-none d-sm-block d-sm-none d-md-block d-md-none d-lg-block" href="#"><i class="fab fa-instagram"></i></a>
-          </li>
-          <li class="nav-item">
-            <a class="nav-link text-dark d-none d-sm-block d-sm-none d-md-block d-md-none d-lg-block" href="#"><i class="fab fa-twitter"></i></a>
-          </li>
-          <li class="nav-item">
-            <a class="nav-link text-dark d-none d-sm-block d-sm-none d-md-block d-md-none d-lg-block" href="#"><i class="fab fa-linkedin"></i></a>
-          </li>
-        </ul>
+        </div>
+        <button class="navbar-toggler mx-2" type="button" data-bs-toggle="collapse" data-bs-target="#navbarSupportedContent" aria-controls="navbarSupportedContent" aria-expanded="false" aria-label="Toggle navigation">
+          <span class="navbar-toggler-icon"></span>
+        </button>
+        <div class="collapse navbar-collapse mx-2" id="navbarSupportedContent">
+          <ul class="navbar-nav ms-auto mb-2 mb-lg-0 fs-5">
+            <li class="nav-item">
+              <a class="nav-link text-dark" href="index.html">Home</a>
+            </li>
+            <li class="nav-item">
+              <a class="nav-link text-dark" href="blog.html">Articles</a>
+            </li>
+            <li class="nav-item">
+              <a class="nav-link text-dark d-none d-sm-block d-sm-none d-md-block d-md-none d-lg-block" href="#"><i class="fab fa-instagram"></i></a>
+            </li>
+            <li class="nav-item">
+              <a class="nav-link text-dark d-none d-sm-block d-sm-none d-md-block d-md-none d-lg-block" href="#"><i class="fab fa-twitter"></i></a>
+            </li>
+            <li class="nav-item">
+              <a class="nav-link text-dark d-none d-sm-block d-sm-none d-md-block d-md-none d-lg-block" href="#"><i class="fab fa-linkedin"></i></a>
+            </li>
+          </ul>
+        </div>
       </div>
-  </nav>
+    </nav>
    </div>
   <!-- Navbar End -->
 
@@ -43,12 +49,12 @@
   <div class="containerDiv">
     <div class="container">
       <div class="row mt-5 py-5">
-        <div class="col-sm-6 my-5 py-3" id="coffeeCol">
+        <div class="col-md-6 my-5 py-3" id="coffeeCol">
           <h1 class="fw-bold">Make better <br> coffe <img src="/img/svg.svg" alt="" style="width: 90;height: 90px;"></h1>
           <p>why learn how to blog?</p>
         </div>
-        <div class="col-sm-6 px-5">
-          <img class="me-2" src="/img/croods1.svg" alt="" style="width: 427px;height: 400px;">
+        <div class="col-md-6 px-5">
+          <img class="me-2" src="/img/croods1.svg" alt="" style="width: 400px;height: 350px;">
         </div>
       </div>
     </div>
@@ -59,14 +65,17 @@
   <div class="container d-flex mt-3 mb-4" id="ContainerId">
     <div class="card mb-3">
       <div class="row g-0">
-        <div class="col-md-7">
+        <div class="col-md-7 col-lg-8 col-xl-6">
           <div class="card-body px-5 py-1 mx-4">
             <h3 class="card-title fw-bold fs-1 mt-4">long established</h3><br>
             <p class="card-text" style="color: #718096;font-size: 21px;">It is a long established fact that a reader will be distracted by the readable content of a page when looking at its layout. The point of using Lorem Ipsum is that....</p><br>
-            <p>May 20th 2020 <b>Read more</b></p>
+            <div class="bottomText d-flex">
+              <p>May 20</p>
+              <a><b>Read more</b></a>
+            </div>
           </div>
         </div>
-        <div class="col-md-5">
+        <div class="col-md-5 col-lg-12 col-xl-6">
           <img src="/img/image1.png" class="card-img" alt="...">
         </div>
       </div>
@@ -83,7 +92,10 @@
           <div class="card-body">
             <h4 class="card-title fw-bold">long established</h4>
             <p class="card-text"style="color: #718096;">It is a long established fact that a reader will be distracted by the readable content of a page when looking at its layout. The point of using Lorem Ipsum is that....</p>
-            <p>May 20th 2020 <b>Read more</b></p>
+            <div class="bottomText d-flex">
+              <p>May 20</p>
+              <a><b>Read more</b></a>
+            </div>
           </div>
         </div>
       </div>
@@ -93,7 +105,10 @@
           <div class="card-body">
             <h4 class="card-title fw-bold">long established</h4>
             <p class="card-text"style="color: #718096;">It is a long established fact that a reader will be distracted by the readable content of a page when looking at its layout. The point of using Lorem Ipsum is that....</p>
-            <p>May 20th 2020 <b>Read more</b></p>
+            <div class="bottomText d-flex">
+              <p>May 20</p>
+              <a><b>Read more</b></a>
+            </div>
           </div>
         </div>
       </div>
@@ -103,7 +118,10 @@
           <div class="card-body">
             <h4 class="card-title fw-bold">long established</h4>
             <p class="card-text"style="color: #718096;">It is a long established fact that a reader will be distracted by the readable content of a page when looking at its layout. The point of using Lorem Ipsum is that....</p>
-            <p>May 20th 2020 <b>Read more</b></p>
+            <div class="bottomText d-flex">
+              <p>May 20</p>
+              <a><b>Read more</b></a>
+            </div>
           </div>
         </div>
       </div>
@@ -114,12 +132,15 @@
   <!-- Two Card -->
   <div class="container d-flex mt-3 mb-2">
     <div class="card mb-2 h-25">
-      <div class="row  g-0">
-        <div class="col-md-6 " id="titleCard">
+      <div class="row g-0">
+        <div class="col-md-6" id="titleCard">
           <div class="card-body px-5 py-5 mx-5 my-5">
             <h1 class="card-title fw-bold ">What is Lorem Ipsum?</h1><br>
             <p class="card-text" style="color: #718096;font-size: 21px;">It is a long established fact that a reader will be distracted by the readable content of a page when looking at its layout. The point of using Lorem Ipsum is that it has a more-or-less normal distribution...</p><br>
-            <p>May 20 <b>Read more</b> </p>
+            <div class="bottomText d-flex">
+              <p>May 20</p>
+              <a><b>Read more</b></a>
+            </div>
           </div>
         </div>
         <div class="col-md-6 h-25">
@@ -141,6 +162,7 @@
   </div>
 
   <hr>
+
   <!-- End See More -->
 
   <!-- Footer -->
